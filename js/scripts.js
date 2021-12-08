@@ -45,18 +45,27 @@ let inputValue = $('#input').val();
 li.append(inputValue);
 
 if (inputValue === '') {
-  alert("You must write something!");
+  alert('You must write something!');
 } else {
-  let list = $("#list")
+  let list = $('#list')
   list.append(li);
 }
 
 //2. Crossing out an item from the list of items:
 function crossOut() {
-li.addClass("strike");
+li.addClass('strike');
 }
 
-li.on("dblclick", function crossOut(){
+li.on('dblclick', function crossOut(){
   //do something
 }
-};
+)};
+
+//3(i). Adding the delete button "X":
+let crossOutButton = $('<crossOutButton>');
+let deleteListItem = $('X')
+crossOutButton.append('X')
+
+crossOutButton.on('click', function deleteListItem(){
+  //do something
+})
