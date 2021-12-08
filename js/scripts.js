@@ -50,3 +50,13 @@ if (inputValue === '') {
   let list = $("#list")
   list.append(li);
 }
+
+//2. Crossing out an item from the list of items:
+function crossOut() {
+li.addClass("strike");
+}
+
+li.on("dblclick", function crossOut(){
+  //do something
+}
+};
