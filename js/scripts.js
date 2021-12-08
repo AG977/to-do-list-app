@@ -69,3 +69,12 @@ crossOutButton.append('X')
 crossOutButton.on('click', function deleteListItem(){
   //do something
 })
+
+//3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
+function deleteListItem(){
+ li.addClass('delete');
+}
+
+// 4. Reordering the items:
+  $('#list').sortable();
+};
