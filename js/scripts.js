@@ -24,13 +24,8 @@ li.toggleClass('strike')
 
 //3(i). Adding the delete button "X":
 let crossOutButton = $('<crossOutButton></crossOutButton>');
-let deleteListItem = $('X')
-li.append.(crossOutButton('X'))
-
-let crossOutButton = document.createElement("crossOutButton");
-crossOutButton.appendChild(document.createTextNode("X"));
-li.appendChild(crossOutButton);
-
+crossOutButton.append(document.createTextNode('X'));
+li.append(crossOutButton);
 
 //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
 crossOutButton.on('click', function deleteListItem(){
