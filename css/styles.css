@@ -10,8 +10,9 @@ body {
   width: 300px;
   margin: 0 auto;
   margin-top: 40px;
-  background: white;
+  background: #000;
   border-radius: 5px;
+  color: #daa520;
 }
 
 form {
@@ -24,8 +25,8 @@ input {
 
 #button {
   display: inline-block;
-  background-color: #fc999b;
-  color: #fff;
+  background-color: #daa520;
+  color: #000;
   border-radius: 5px;
   text-align: center;
   margin-top: 2px;
@@ -39,9 +40,9 @@ input {
 
 ol { padding-left: 20px; }
 
-ol li { padding: 5px; color: #000; }
+ol li { padding: 5px; color: #daa520; }
 
-ol li:nth-child(even) { background: #dfdfdf; }
+ol li:nth-child(even) { background: #000; }
 
 .strike { text-decoration: line-through; }
 
@@ -57,7 +58,7 @@ li > crossoutbutton {
   background: none;
   border: none;
   float: right;
-  color: #000;
+  color: #daa520;
   font-weight: 800;
 }
 
